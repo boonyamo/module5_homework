@@ -4,6 +4,6 @@ const nums = [1, 2, 1, 1, 1];
 let result = nums.every(checkNums);
 
 function checkNums(nums) {
-  return nums === 1;
+  return nums === num[0];
 }
 console.log(result);
